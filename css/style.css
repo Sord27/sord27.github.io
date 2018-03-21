@@ -247,22 +247,30 @@ header.fixed .header-wrapper {
 }
 
 .numb {
+	color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: right;
+	text-align: left;
 }
 .numbers {
 	background-color: #10c9c3;
 	height: 245px;
+	display: flex;
+    align-items: center;
 
 	}
 .numbers-grid {
 	text-align: center;
-	padding-top: 50px;
 	display: flex;
 	justify-content: space-between;
 
+}
+.pre-numb {
+	margin-left: 25px;
+}
+.numb p {
+	margin: 0 0 5px;
 }
 
 /* .work {
