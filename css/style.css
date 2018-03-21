@@ -246,7 +246,12 @@ header.fixed .header-wrapper {
 	margin-bottom: 15px;
 }
 
-
+.numb {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: right;
+}
 .numbers {
 	background-color: #10c9c3;
 	height: 245px;
