@@ -240,6 +240,14 @@ header.fixed .header-wrapper {
 .service1 p {
 	text-transform: uppercase;
 	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: black;
+}
+.service1 span {
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
 }
 .service1 img {
 	height: 40px;
@@ -424,20 +432,27 @@ oxox
 	align-items: center;
 	text-align: center;
 }
-.testimonials span {
+.testimomials-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}.testimomials-text p {
+	flex-basis: 30px;
+	margin-top: 30px;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	color: white;
-	line-height: 2;
-}
-.testimonials p {
-	margin-top: 20px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 10px;
+	font-size: 12px;
 	text-transform: uppercase;
 	color: white;
-	
+	letter-spacing: 1.5px;
 }
+.testimomials-text span {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 1.8;
+	margin-top: 145px;
+}
+
 
 .client {
 	display: flex;
