@@ -269,6 +269,15 @@ header.fixed .header-wrapper {
 .pre-numb {
 	margin-left: 25px;
 }
+.pre-numb p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+.pre-numb span {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+}
 .numb p {
 	margin: 0 0 5px;
 }
