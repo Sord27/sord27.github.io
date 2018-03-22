@@ -7,6 +7,7 @@ $('.owl-carousel').owlCarousel({
     mouseDrag:false,
     autoplay:false,
     video:true,
+    lazyLoad:true,
     center:true,
     merge:true,
     videoWidth: 1170,
