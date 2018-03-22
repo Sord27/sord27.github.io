@@ -125,20 +125,23 @@ header.fixed .header-wrapper {
 		text-decoration: none;
 	 }
 
-.about {
+.about .wrapper {
 	height: 420px;
 	display: flex;
+	justify-content: center;
 	align-items: center;
-	text-align: center;
+	flex-direction: column;	
 }
 
-.about span {
+.about p {
 	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
+	width: 580px;
+	text-align: center;
 }
 .about img {
-	display: block;
-	width: 260px;
+	
+	
 	margin: 30px auto 0;
 }
 
@@ -631,6 +634,11 @@ a:hover#menu-icon {
 	font-size: 1.5em;
 }
 .contact-us-button {
-	margin-left: 30%;
+	margin-left: 29%;
+}
+.about p {
+	width: 100%;
+	text-align: justify;
+	line-height: 1.5;
 }
 } 
