@@ -87,6 +87,7 @@ header.fixed .header-wrapper {
 .banner p {
 	font-size: 18px;
 	line-height: 28px;
+	width: 460px;
 }
 .home-banner {
 	border:3px solid white;
@@ -579,3 +580,57 @@ input[type=submit]:hover {
 	color: #787878;
 
 }
+
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #10c9c3 url(../image/menu-icon.png) center;
+
+}
+a:hover#menu-icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
+
+@media only screen and (max-width : 640px) {  
+#menu-icon {
+		display: inline-block;
+
+
+	}
+.header_menu:hover {
+	margin-top: 200px;
+}
+.header_menu ul, .header_menu:active ul	{
+	display: none;
+	padding: 20px;
+	background: #fff;
+	border: 5px solid #444;
+	border-radius: 4px 0 4px 4px;
+	width: 40%;
+	margin-left: 45%;	
+	}
+.header_menu:hover ul {
+		display: block;
+	}
+.header_menu li {
+	line-height: 2;
+	}
+.banner-text {
+	text-align: center;
+}
+.banner-text p {
+	width: 100%;
+	text-align: justify;
+	font-size: 1em;
+}		
+.banner-text h1 {
+	font-size: 1.5em;
+}
+.contact-us-button {
+	margin-left: 30%;
+}
+} 
