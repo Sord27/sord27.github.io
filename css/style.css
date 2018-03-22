@@ -414,10 +414,6 @@ oxox
 }
 
 .video-content {
-	background-image: url(../image/banner-4.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 	display: flex;
 	justify-content: center;
 	align-items: center;

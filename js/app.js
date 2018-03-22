@@ -4,6 +4,14 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     nav:false,
     items:1,
+    mouseDrag:false,
+    autoplay:false,
+    video:true,
+    lazyLoad:true,
+    center:true,
+    merge:true,
+    videoWidth: 1170,
+    videoHeight: 560
 })
 
 window.onload = function() {
