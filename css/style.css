@@ -726,6 +726,29 @@ body {
 .input3 {
 	width: 96%;
 }
+
+.footer-grid p {
+	line-height: 1.5;
+}
+.footer-start h3 {
+	line-height: .5;
+}
+.footer-start {
+	flex-basis: 100%;
+	text-align: left;
+	margin-bottom: -20px;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.footer-center {
+	flex-basis: 100%;
+	text-align: left;
+	order: -1;
+	margin-left: 50px;
+}
+.footer-grid {
+	flex-wrap: wrap-reverse;
+}
 }
 
 
