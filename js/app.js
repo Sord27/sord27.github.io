@@ -28,7 +28,7 @@ $('.owl-carousel').owlCarousel({
              videoHeight: 450
         },
         1170:{videoWidth: 1170,
-              videoHeight: 450}
+              videoHeight: 550}
         }
 })
 
