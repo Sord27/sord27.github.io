@@ -621,12 +621,13 @@ body {
 }
 .header_menu ul, .header_menu:active ul	{
 	display: none;
+	position: absolute;
+	right: 20px;
 	padding: 20px;
 	background: #fff;
 	border: 5px solid #444;
 	border-radius: 4px 0 4px 4px;
-	width: 40%;
-	margin-left: 45%;	
+	width: 30%;	
 	}
 .header_menu:hover ul {
 		display: block;
