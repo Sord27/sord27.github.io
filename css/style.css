@@ -161,6 +161,8 @@ header.fixed .header-wrapper {
 	transform: scale(0);
 	transform-origin: left;
 	transition: transform 1s ease;
+	width: 360px;
+	height: 10px;
 }
 
 .skill svg line {
