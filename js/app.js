@@ -10,8 +10,26 @@ $('.owl-carousel').owlCarousel({
     lazyLoad:true,
     center:true,
     merge:true,
-    videoWidth: 1170,
-    videoHeight: 560
+    responsive:{
+        320:{
+            videoWidth: 320,
+            videoHeight: 300
+            },
+        375:{videoWidth: 375,
+             videoHeight: 300
+            },
+        667:{videoWidth: 667,
+             videoHeight: 350
+        },
+        768:{videoWidth: 768,
+             videoHeight: 350
+        },
+        1024:{videoWidth: 1024,
+             videoHeight: 450
+        },
+        1170:{videoWidth: 1170,
+              videoHeight: 450}
+        }
 })
 
 window.onload = function() {
